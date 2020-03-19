@@ -75,6 +75,7 @@ image::images/RelBib_W3cBibliographicItem.png[]
       </organization>
     </owner>
   </copyright>
+  <keyword>Data</keyword>
   <ext>
     <doctype>candidateRecommendation</doctype>
     <editorialgroup>
