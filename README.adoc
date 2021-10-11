@@ -1,4 +1,4 @@
-= The Relaton W3cBibliographic Model
+= Relaton W3cBibliographic Model
 
 This bibliographic model is developed to consolidate and standardize
 the data model used for bibliographic and citation purposes.
@@ -6,31 +6,10 @@ the data model used for bibliographic and citation purposes.
 This model is meant to be fully compatible with ISO 690 and
 ISO TC 46's (and SC 4, SC 9) work on bibliography.
 
-It is used extensively in the following projects as containers
-for bibliographic data management and for managing document metadata:
-
-* TODO
-
-Below are the UML diagram.
-
-The document model are expressed as UML and as RelaxNG Compact (RNC) grammar;
-see discussion under
-https://github.com/metanorma/metanorma-model-iso/tree/master/grammars[Grammars]. This
-repository contains the RNC grammars for the W3cBibliographicItem model.
-
-The document model are currently used by IsoDoc-based authoring tools for
-standards, which convert Asciidoctor source to XML representations of the
-document model, and validate the XML generated against the RNC schemas:
-
-* TODO
-
-It is also used by tools that render those XML representations of the document model, into HTML and Microsoft Word:
-
-* TODO
 
 == W3cBibliography UML Models
 
-image::images/RelBib_W3cBibliographicItem.png[]
+image::images/W3cMetadata.png[]
 
 == Example
 
