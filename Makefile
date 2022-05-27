@@ -3,7 +3,7 @@
 #!make
 ifeq ($(OS),Windows_NT)
 SHELL := pwsh -NoProfile
-RM    := Remove-Item -ErrorAction Ignore -Force
+RM    := Remove-Item -Force
 else
 SHELL := /bin/bash
 RM    := rm -f
